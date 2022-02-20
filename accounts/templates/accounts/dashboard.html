@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block title %}Dashboard{% endblock title %}
+{% block content %}
+{% include 'parciais/_messages.html' %}
+    <h1>Welcome to the dashboard {{ user.first_name }}, it's empty for now but soon this page will be filled with some content</h1>
+    <p>You can click <a href="/logout">here</a> to log out</p>
+{% endblock content %}
